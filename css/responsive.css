@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px) {
+    .navbar-toggler-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .center-inner p br {
+        display: none;
+    }
+    
+    .mini-card {
+        padding: 25px 20px;
+    }
+    
+    .clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-toggler {
+        margin: 10px!important;
+    }
+
+    nav#home {
+        background-color: #333745!important;
+    }
+
+    .nav-item {
+        margin: 0 0 0 0;
+    }
+
+    a.nav-link.waves-effect.waves-light {
+        margin: 5px 0;
+    }
+
+    .navbar.scrolling-navbar.top-nav-collapse {
+        padding-right: 16px!important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #service p br {
+        display: none;
+    }
+    
+    .mini-card {
+        text-align: center;
+    }
+    
+    #portfolio p br {
+        display: none;
+    }
+    
+    .client-pre-text br{
+        display: none;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+
+    .footer h6 {
+        margin: 40px 0 10px;
+    }
+
+    section {
+        padding: 3rem 0;
+    }
+}
+

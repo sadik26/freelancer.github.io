@@ -1,0 +1,415 @@
+/*
+*
+* ------------------------------------------------------------------
+*
+* Project: Freelancer Lab
+* Version: 1.0
+* Created : 12/08/2018
+* Template URI: http://freelancerlabbd.com/
+* Author Name: Freelancer Lab
+* Author URI: http://freelancerlabbd.com/
+* Description: Be a Better Version of Yourself
+* Developer: Dipto Roy
+*
+* -------------------------------------------------------------------
+*
+
+
+/*=====================================
+=         01. Theme Reset CSS         =
+=====================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #45496E;
+}
+
+body {
+    background-color: #F3F8F5 !important;
+}
+
+body,
+p,
+span,label {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+p {
+    opacity: 0.9;
+}
+
+a,
+a.disabled:hover,
+a:disabled:hover {
+    color: navajowhite;
+}
+
+p {
+    margin: 0;
+    color: grey;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 15px !important;
+}
+
+section {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.quotes {
+    display: none;
+}
+
+button.btn.btn-warning.waves-effect.waves-light {
+    padding: 10px 40px;
+    font-size: 17px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* Owl Carousel */
+
+.owl-item {
+    float: left;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-nav {
+    display: none;
+}
+
+
+
+/*=====================================
+=            02. Header               =
+=====================================*/
+
+/*========== 2.1 - Header ==========*/
+
+.top-head {
+    background: linear-gradient( to right, rgba(56, 56, 233, 0.7) 0%, rgba(75, 162, 231, 0.1) 100%), url("../img/banner.png");
+    height: 100vh;
+    width: 100%;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-unique {
+    background-color: #095BE2 !important;
+    color: #fff !important;
+}
+
+.side-img{
+    padding: 0!important;
+    text-align: right;
+}
+
+.center-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+/*===== 2.2 - Custom Navigation =====*/
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.navbar.scrolling-navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar.scrolling-navbar.top-nav-collapse {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border: 0 !important;
+    box-shadow: 0 0 !important;
+    background-color: #333745;
+    padding-right: 1.2% !important;
+}
+
+.nav-link.waves-effect.waves-light {
+    color: floralwhite !important;
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    background-color: cornflowerblue;
+    border: 1px solid blue;
+}
+
+.nav-item:hover .nav-link {
+    opacity: 0.5;
+}
+
+.nav-link.waves-effect.waves-light:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .12), 0 2px 10px 0 rgba(0, 0, 0, 0);
+}
+
+.nav-item {
+    margin: 0 0 0 25px;
+    text-align: center;
+}
+
+.owl-stage-outer img {
+    max-width: 260px;
+    min-height: 200px;
+    transition: all 0.3s;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6182FF;
+    opacity: 0.5;
+}
+
+.owl-stage-outer {
+    margin: 50px 0;
+}
+
+.owl-stage-outer img:hover {
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #6182FF;
+}
+
+a,
+a.disabled:hover,
+a:disabled:hover {
+    color: white;
+}
+
+a.nav-link.waves-effect.waves-light {
+    margin: 15px 0;
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolios{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.clients{
+    margin-top: 50px;
+}
+
+.bq-info {
+    border-left: 5px solid #33b5e5 !important;
+}
+
+.bq-danger {
+    border-left: 5px solid #FF6600 !important;
+}
+
+.bq-success {
+    border-left: 5px solid #75BF44 !important;
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blockquote {
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.mini-card {
+
+    padding: 35px 50px;
+    transition: all 0.5s;
+}
+
+.mini-card p {
+    font-size: 14px !important;
+}
+
+.mini-card:hover {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 80px rgba(0, 0, 0, 0.02);
+    transition: all 0.5s;
+}
+
+.video-area {
+    padding: 150px;
+    position: relative;
+    background: url(../img/Video-bg.png) no-repeat center center/cover;
+}
+
+.video-area .video-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.container-fluid {
+    padding-left: 0;
+}
+
+.about-text {
+    background: linear-gradient( to right, rgba(56, 56, 233, 0.7) 0%, rgba(75, 162, 231, 0.1) 100%), url("../img/banner.png");
+    background-position: left bottom;
+    color: white !important;
+    padding: 80px 50px;
+    padding-right: 0;
+}
+
+.video {
+    padding-right: 0;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*========== 2.8 - Footer Widgets Section ==========*/
+
+.footer-menu {
+    padding: 0;
+}
+
+.footer h6 {
+    margin-bottom: 25px;
+    color: white;
+}
+
+.footer-menu li {
+    list-style: none;
+    margin: 3px 0;
+}
+
+.footer-menu li a {
+    color: #e3e3e3;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.footer-menu li:hover a {
+    color: #0056c3;
+}
+
+section.footer {
+    background-color: #19294A;
+}
+
+.footer p{
+    color: #e3e3e3;
+    opacity: 0.5;
+}
+
+.social .footer-menu li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+.social .footer-menu li a i {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.social .footer-menu li:hover a i {
+    color: lightskyblue;
+}
+
+
+
+/*========== 2.10 - Scroll To Top ==========*/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background: #BAE2C2; */
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 0 60px 20px rgba(0, 0, 0, 0.03);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: deepskyblue;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+#return-to-top:hover i {
+    color: dodgerblue;
+    top: 8px;
+}
+
+.navbar-toggler {
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.fa-bars:before {
+    color: white;
+}
+
+.owl-carousel.owl-loaded {
+    text-align: center;
+}
